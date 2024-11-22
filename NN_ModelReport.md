@@ -43,14 +43,21 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select appl
 
 ### Summary of Overall Results
 
-The best results were achieved in the second attempt which included the following optimization methods:
+The results of the initial model (without optimization attempts) are as follows:
+
+* Loss: 0.5566800832748413,
+* Accuracy: 0.7282798886299133
+
+The best results were achieved in the second optimization attempt which included the following optimization methods:
 
 * Added a third hidden layer, using the relu activation function, with 10 neurons
 * Removed "STATUS" and "SPECIAL_CONSIDERATIONS" features / columns
 
 Second attempt model evaluation:
 
-* Loss: 0.5640788078308105
+* Loss: 0.5640788078308105,
 * Accuracy: 0.7290962338447571
 
 ### Reconmmendation
+
+A model is only as good as the inputs fed into it. As such, further initial steps should be taken for data cleanup so that the feature data provided is more relevant to the consequent target variable.
