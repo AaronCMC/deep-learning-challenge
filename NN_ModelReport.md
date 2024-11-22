@@ -29,7 +29,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select appl
   * The first hidden layer used the relu activation function, and consisted of 80 neurons which is higher than the number of input features due to the presumed complexity of the data.
   * The second hidden layer also used the relu activation function, and consisted of 30 neurons which is lower than the first hidden layer to help reduce complexity, encourage generalization, improve computational efficiency, perform dimensionality reduction, and maintain training stability.
   * The output layer used the sigmoid activation function.
-* Model evaluation: Were you able to achieve the target model performance?
+* Model evaluation:
   * After three optimization attempts, the target model performance of an accuracy score of 75% or above was not achieved.
 * Steps taken in attempts to increase model performance
   * First Attempt:
@@ -61,3 +61,5 @@ Second attempt model evaluation:
 ### Reconmmendation
 
 A model is only as good as the inputs fed into it. As such, further initial steps should be taken for data cleanup so that the feature data provided is more relevant to the consequent target variable.
+
+Decision Tree and Random Forest are models that may effectively address binary classification problems. It is recommended to try these models as well to learn if they are able to achieve the target model performance.
